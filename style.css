@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /* header */
 .header {
@@ -47,16 +47,14 @@
 }
 
 /* main */
-main {
-  background-color: rgb(241, 239, 255);
-}
-.player-container {
+.main-container {
+  background-color: #f3f1ff;
   width: 100%;
   min-height: 100vh;
+  padding: 4% 0;
 }
-.players {
+.player-container {
   background-color: rgb(255, 255, 255);
-  box-shadow: 10px 10px 10px rgb(231, 231, 231);
   width: 70%;
   margin: 0 auto;
   padding: 2%;
@@ -116,4 +114,78 @@ main {
 }
 .blog-elements {
   display: flex;
+}
+/* course */
+.courses {
+  width: 70%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 2%;
+  border-radius: 10px;
+}
+.c-heading {
+  margin-bottom: 30px;
+  color: rgb(96, 96, 237);
+}
+.course-element-container {
+  display: flex;
+  justify-content: space-between;
+}
+.course-element-1 {
+  width: 30%;
+  box-shadow: 10px 10px 10px rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 10px;
+}
+.course-element-2 {
+  width: 30%;
+  box-shadow: 10px 10px 10px rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 10px;
+}
+.course-element-3 {
+  width: 30%;
+  box-shadow: 10px 10px 10px rgb(231, 231, 231);
+  border-radius: 10px;
+  padding: 10px;
+}
+.ratings-times {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.l-font-icon {
+  width: 50%;
+}
+.c-image img {
+  width: 100%;
+}
+.c-text-box p {
+  color: rgb(255, 130, 130);
+  margin: 5px 0;
+}
+
+.fa-star {
+  font-size: 13px;
+  color: orange;
+}
+.fa-star-half {
+  font-size: 13px;
+  color: orange;
+}
+.times {
+  width: 30%;
+  background-color: rgb(255, 189, 189);
+  border-radius: 30px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+}
+.times img {
+  width: 30%;
+  height: 30%;
+}
+.times p {
+  margin-left: 2px;
 }
