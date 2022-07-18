@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+/* header */
+.header {
+  background-color: rgb(96, 96, 237);
+  width: 100%;
+  padding: 2%;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.logo {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 50%;
+  height: 50%;
+}
+.logo h2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.nav-links nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-links nav ul li {
+  margin-left: 20px;
+}
+.nav-links nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* main */
+main {
+  background-color: rgb(241, 239, 255);
+}
+.player-container {
+  width: 100%;
+  min-height: 100vh;
+}
+.players {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px rgb(231, 231, 231);
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+  border-radius: 10px;
+}
+.top-name {
+  margin-bottom: 30px;
+  color: rgb(96, 96, 237);
+}
+.player-profiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.player-info {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.player-info img {
+  width: 100%;
+}
+.name {
+  font-size: 15px;
+  margin-left: 10px;
+}
+/* blog */
+.blogs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.top-blog {
+  margin: 30px 0;
+  color: rgb(96, 96, 237);
+}
+.blog-img {
+  width: 90%;
+}
+.blog-img img {
+  width: 100%;
+}
+.blog-text {
+  margin: 0 20px;
+  line-height: 34px;
+}
+.blog-text p a {
+  color: rgb(96, 96, 237);
+  text-decoration: none;
+  font-weight: bold;
+}
+.blog-heading {
+  font-size: 20px;
+}
+.blog-elements {
+  display: flex;
+}
